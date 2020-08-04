@@ -1,0 +1,3 @@
+= OpenShift4 Scheduler: A Commodore component to manage OpenShift4 Scheduler
+
+{doctitle} is a Commodore component for Managing OpenShift4 Scheduler.

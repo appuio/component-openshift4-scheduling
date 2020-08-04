@@ -1,0 +1,6 @@
+name: openshift4-scheduling
+title: OpenShift4 Scheduler
+version: master
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/partials/nav.adoc
