@@ -1,6 +1,6 @@
 # Commodore Component: OpenShift4 Scheduler
 
-This is a [Commodore][commodore] Component for OpenShift4 Scheduler.
+This is a [Commodore][commodore] Component to configure OpenShift4 schedulers.
 
 This repository is part of Project Syn.
 For documentation on Project Syn and this component, see https://syn.tools.

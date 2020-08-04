@@ -3,7 +3,7 @@ local inv = kap.inventory();
 local params = inv.parameters.openshift4_scheduling;
 local argocd = import 'lib/argocd.libjsonnet';
 
-local app = argocd.App('openshift4-scheduling', params.namespace);
+local app = argocd.App('openshift4-scheduling', params.namespace, secrets=false);
 
 {
   'openshift4-scheduling': app,
