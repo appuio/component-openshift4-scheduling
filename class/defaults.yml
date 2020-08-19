@@ -1,3 +1,7 @@
 parameters:
   openshift4_scheduling:
-    namespace: syn-openshift4-scheduling
+    namespace: openshift-kube-scheduler
+    schedulers:
+      cluster:
+        mastersSchedulable: false
+        defaultNodeSelector: node-role.kubernetes.io/app=

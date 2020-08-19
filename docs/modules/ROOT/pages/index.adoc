@@ -1,3 +1,15 @@
-= OpenShift4 Scheduler: A Commodore component to manage OpenShift4 Scheduler
+= OpenShift4 Scheduling: A Commodore component to manage OpenShift4 cluster schedulers
 
-{doctitle} is a Commodore component for Managing OpenShift4 Scheduler.
+{doctitle} is a Commodore component for Managing https://docs.openshift.com/container-platform/4.5/nodes/scheduling/nodes-scheduler-about.html[OpenShift4 cluster schedulers].
+
+== Default Node Selector
+
+This components assumes dedicated infra nodes are used.
+The component further assumes the existence of an _app_ node role.
+This is required to prevent regular workload from being scheduled on those infra nodes.
+
+[IMPORTANT]
+====
+Ensure that the target cluster does have nodes with the _app_ role label set.
+See the components defaults for the exact value.
+====

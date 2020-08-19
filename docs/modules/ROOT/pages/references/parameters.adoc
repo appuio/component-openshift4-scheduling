@@ -1,0 +1,30 @@
+= Parameters
+
+The parent key for all of the following parameters is `openshift4_scheduling`.
+
+
+== `schedulers`
+
+[horizontal]
+type:: dictionary
+default:: Default `cluster` scheduler.
+
+A dictionary holding the `.spec` for schedulers.
+The keys of the dict are used as names for the schedulers.
+
+See the https://docs.openshift.com/container-platform/latest/nodes/scheduling/nodes-scheduler-default.html#nodes-scheduler-default[OpenShift docs] for available parameters.
+
+To unset all scheduling configurations, set to `null`.
+
+NOTE: This will make the scheduling unmanaged but will not reset them to OpenShift defaults.
+
+
+== Example
+
+[source,yaml]
+----
+schedulers:
+  cluster:
+    mastersSchedulable: true
+    defaultNodeSelector: node-role.kubernetes.io/worker=''
+----
