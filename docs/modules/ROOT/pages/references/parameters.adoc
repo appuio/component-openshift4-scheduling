@@ -14,7 +14,9 @@ The keys of the dict are used as names for the schedulers.
 
 See the https://docs.openshift.com/container-platform/latest/nodes/scheduling/nodes-scheduler-default.html#nodes-scheduler-default[OpenShift docs] for available parameters.
 
-To remove all ingress controllers, set to `null`.
+To unset all scheduling configurations, set to `null`.
+
+NOTE: This will make the scheduling unmanaged but will not reset them to OpenShift defaults.
 
 
 == Example
