@@ -1,0 +1,6 @@
+:global:
+  componentName: openshift4-scheduling
+
+docs/antora.yml:
+  name: openshift4-scheduling
+  title: OpenShift4 Scheduler
