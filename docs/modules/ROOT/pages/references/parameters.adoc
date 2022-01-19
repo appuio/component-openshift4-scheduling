@@ -16,7 +16,7 @@ See the https://docs.openshift.com/container-platform/latest/nodes/scheduling/no
 
 To unset all scheduling configurations, set to `null`.
 
-NOTE: This will make the scheduling unmanaged but will not reset them to OpenShift defaults.
+NOTE: This will make the scheduling configuration unmanaged by the component, but won't reset changed values to the OpenShift defaults.
 
 
 == Example
