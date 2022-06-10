@@ -5,7 +5,7 @@ on:
       - master
 
 env:
-  COMPONENT_NAME: openshift4-scheduling
+  COMPONENT_NAME: OpenShift4 Scheduler
 
 jobs:
   linting:
