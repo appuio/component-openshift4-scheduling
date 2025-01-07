@@ -1,5 +1,7 @@
 parameters:
   openshift4_scheduling:
+    =_metadata:
+      multi_tenant: true
     namespace: openshift-kube-scheduler
     schedulers:
       cluster:
